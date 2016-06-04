@@ -1,0 +1,56 @@
+.pager-header {
+    height: auto;
+    letter-spacing: auto;
+    text-align:center;
+    padding-top:225px;
+    margin-right: auto;
+    margin-left: 510px;
+    margin-top: 350px;
+    font-family: monospace, sans-serif;
+    position: absolute;
+    color: white;
+    height:300;
+    width:500;
+    background-image: url(http://i.imgur.com/dETEfGG.png?1);
+  }
+.hexagon1{
+  margin-left: 170px;
+  margin-top: 150px;
+  position: absolute;
+}
+.hexagon2{
+  margin-left: 510px;
+  margin-top: -40px;
+  position: absolute;
+}
+.hexagon3{
+  margin-left: 170px;
+  margin-top: 550px;
+  position: absolute;
+}
+.hexagon4{
+  margin-left: 848px;
+  margin-top: 150px;
+  position: absolute;
+}
+.sidebar{
+  background-color: black;
+  right:0;
+  margin-left:auto;
+  position:fixed;
+}
+.sidebarlarge{
+  width:300;
+}
+.mouseover-text{
+  color:white;
+}
+.home{
+  top:30px;
+  position:fixed;
+  right:5px;
+
+}
+body {
+    background-image: url(http://wallpapercave.com/wp/gdQRvJJ.jpg);
+}
