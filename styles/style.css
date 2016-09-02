@@ -1,56 +1,31 @@
-.pager-header {
-    height: auto;
-    letter-spacing: auto;
-    text-align:center;
-    padding-top:225px;
-    margin-right: auto;
-    margin-left: 510px;
-    margin-top: 350px;
-    font-family: monospace, sans-serif;
-    position: absolute;
-    color: white;
-    height:300;
-    width:500;
-    background-image: url(http://i.imgur.com/dETEfGG.png?1);
-  }
-.hexagon1{
-  margin-left: 170px;
-  margin-top: 150px;
-  position: absolute;
-}
-.hexagon2{
-  margin-left: 510px;
-  margin-top: -40px;
-  position: absolute;
-}
-.hexagon3{
-  margin-left: 170px;
-  margin-top: 550px;
-  position: absolute;
-}
-.hexagon4{
-  margin-left: 848px;
-  margin-top: 150px;
-  position: absolute;
-}
-.sidebar{
-  background-color: black;
-  right:0;
-  margin-left:auto;
-  position:fixed;
-}
-.sidebarlarge{
-  width:300;
-}
-.mouseover-text{
+.pager-header{
+  position:absolute;
+  font-size: 60;
+  font-style: normal;
+  font-family: sans-serif;
+  font-weight: 100;
   color:white;
+  text-align: center;
+  margin-left:45%;
+  opacity: 0.8;
+  top:600px;
 }
-.home{
-  top:30px;
+.background{
+  top:0;
+  left:0;
   position:fixed;
-  right:5px;
-
+  z-index: -1;
 }
-body {
-    background-image: url(http://wallpapercave.com/wp/gdQRvJJ.jpg);
+.rect{
+  position:absolute;
+  top:1000px;
+  margin-left: 150px;
+  color:white;
+  opacity: 0.75;
+}
+.animation{
+  position: absolute;
+  margin-left:400px;
+  top:1200px;
+  z-index: 1;
 }

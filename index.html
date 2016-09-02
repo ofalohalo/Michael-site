@@ -1,17 +1,25 @@
+<!DOCTYPE html>
 <html>
-
   <head>
     <link rel="stylesheet" href="styles/style.css" type="text/css"/>
+    <script src="jquery-3.1.0.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $("#animate").hover(function(){
+                $(this).attr("src", "images/swordfinishedfinal.gif");
+              },function(){
+                $(this).attr("src", "images/finishedfal.jpg");
+            });
+      });
+    </script>
   </head>
   <body>
-    <h2 class="pager-header"><font size = "7"> Michael Li</font> </h2>
-    <img class="hexagon1" src="http://i.imgur.com/dETEfGG.png?1" alt="hexagon" />
-    <img class="hexagon2" src="http://i.imgur.com/dETEfGG.png?1" alt="hexagon" />
-    <img class="hexagon3" src="http://i.imgur.com/dETEfGG.png?1" alt="hexagon" />
-    <img class="hexagon4" src="http://i.imgur.com/dETEfGG.png?1" alt="hexagon" />
+    <img class="animation" id="animate" src="images/finishedfal.jpg" alt="animationswords" >
+    <h1 class="pager-header"> Michael Li </h1>
+    <img class="background" src="images\anime-sky-scenery.jpg" alt="background" />
+    <svg width="1500" height="1800" class="rect">
+      <rect width="1300" height="1200" style="fill:white;" />
+    </svg>
+
   </body>
-
-  <div  class="sidebar" style="width:80px;height:1062px;border:1px solid #000;"></div>
-    <img class="home" src="http://i.imgur.com/u49EMxQ.png" style="width:80px;height:60px" alt="home">
-
 </html>
